@@ -120,3 +120,37 @@ tracert google.com
 - /24 is one of the most common subnet masks.
 - Subnet masks help devices determine where traffic should be sent.
 - Subnet masks are important for cybersecurity and network administration.
+
+### What is a subnet mask?
+
+A number used to divide an IP address into network and host portions.
+
+### What does a subnet mask help determine?
+
+Whether devices are on the same network.
+
+### What is the subnet mask for /24?
+
+255.255.255.0
+
+### What does CIDR stand for?
+
+Classless Inter-Domain Routing.
+
+### What is the most common home network subnet?
+
+/24 or 255.255.255.0
+
+### Why are subnet masks important?
+
+They help devices communicate correctly and define network boundaries.
+
+## Personal Notes
+
+What I learned:
+
+- Subnet masks divide networks into network and host portions.
+- CIDR notation is a shortcut for subnet masks.
+- /24 is very common in home networks.
+- Subnet masks help determine where traffic should go.
+- Understanding subnet masks is important for cybersecurity.
