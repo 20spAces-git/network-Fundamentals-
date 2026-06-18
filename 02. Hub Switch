@@ -1,0 +1,180 @@
+# Hub vs Switch
+
+## What is a Hub?
+
+A hub is a basic networking device that connects multiple devices and sends incoming data to every connected port.
+
+### Characteristics
+
+* Operates at Layer 1 (Physical Layer)
+* Broadcasts data to all devices
+* Does not know where data should go
+* Rarely used in modern networks
+
+### Advantages
+
+* Simple
+* Low cost
+
+### Disadvantages
+
+* Inefficient
+* More network collisions
+* Lower security
+
+---
+
+## What is a Switch?
+
+A switch is a networking device that intelligently forwards data only to the intended destination.
+
+### Characteristics
+
+* Operates at Layer 2 (Data Link Layer)
+* Uses MAC addresses
+* Sends traffic only where it needs to go
+* Commonly used in modern networks
+
+### Advantages
+
+* Faster performance
+* Better security
+* Fewer collisions
+
+### Disadvantages
+
+* More expensive than a hub
+
+---
+
+## Hub vs Switch Comparison
+
+| Feature       | Hub       | Switch             |
+| ------------- | --------- | ------------------ |
+| OSI Layer     | Layer 1   | Layer 2            |
+| Data Delivery | All Ports | Specific Port      |
+| Performance   | Lower     | Higher             |
+| Security      | Lower     | Higher             |
+| Intelligence  | None      | Uses MAC Addresses |
+
+---
+
+## Real-World Example
+
+In a home or office network, devices are usually connected to a switch, not a hub.
+
+---
+
+## Cybersecurity Connection
+
+Understanding switches is important because security analysts investigate traffic moving between devices. Switches use MAC addresses and help reduce unnecessary network traffic.
+
+Knowing the difference between hubs and switches also helps explain collision domains and packet forwarding.
+
+## Key Takeaways
+
+* Hubs send data to everyone.
+* Switches send data only to the correct device.
+* Modern networks use switches.
+* Switches improve performance and security.
+What is a Hub?-A hub operates at a layer 1 of the osi model.
+What is a Switch?-a switch operates at a layer 2 of the osi model.
+
+## Key Points
+
+- A hub sends data to every connected device.
+- A switch sends data only to the intended destination.
+- Switches use MAC addresses to forward traffic.
+- Switches are faster and more secure than hubs.
+- Modern networks primarily use switches.
+# Practice Questions & Answers
+
+## 1. What is a hub?
+
+A hub is a Layer 1 networking device that sends incoming data to every connected device on the network.
+
+---
+
+## 2. What is a switch?
+
+A switch is a Layer 2 networking device that forwards data only to the intended destination using MAC addresses.
+
+---
+
+## 3. What OSI layer does a hub operate on?
+
+Layer 1 (Physical Layer).
+
+---
+
+## 4. What OSI layer does a switch operate on?
+
+Layer 2 (Data Link Layer).
+
+---
+
+## 5. What information does a switch use to forward traffic?
+
+A switch uses MAC addresses to determine where data should be sent.
+
+---
+
+## 6. Does a hub send data to one device or all devices?
+
+A hub sends data to all connected devices.
+
+---
+
+## 7. Does a switch send data to one device or all devices?
+
+A switch sends data only to the intended device.
+
+---
+
+## 8. Which device is more efficient, a hub or a switch?
+
+A switch is more efficient because it reduces unnecessary network traffic.
+
+---
+
+## 9. Which device provides better security?
+
+A switch provides better security because network traffic is sent only to the intended destination.
+
+---
+
+## 10. Why are hubs rarely used today?
+
+Hubs are inefficient, create more network traffic, and provide less security than switches.
+
+---
+
+## 11. Which device is commonly found in modern networks?
+
+Switches are commonly used in modern home, office, and enterprise networks.
+
+---
+
+## 12. What is one advantage of a hub?
+
+Hubs are simple and inexpensive.
+
+---
+
+## 13. What is one advantage of a switch ?
+
+Switches improve network performance by forwarding traffic only where it needs to go.
+
+---
+
+## 14. What is one disadvantage of a hub?
+
+A hub broadcasts all traffic to every device, creating unnecessary traffic.
+
+---
+
+## 15. In a modern office network, would you choose a hub or a switch?
+
+A switch, because it provides better performance, scalability, and security.
+
+---
