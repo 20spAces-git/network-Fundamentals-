@@ -1,0 +1,108 @@
+# Network Topology
+
+## What is Network Topology?
+
+Network topology is the physical or logical arrangement of devices within a network. It describes how computers, switches, routers, and other devices are connected and how data travels between them.
+
+## Why It Matters
+
+Understanding network topology helps cybersecurity professionals:
+
+* Visualize how devices communicate
+* Identify potential points of failure
+* Troubleshoot connectivity issues
+* Understand how attackers may move through a network
+
+## Common Types of Network Topology
+
+### Star Topology
+
+In a star topology, all devices connect to a central device such as a switch.
+
+**Advantages**
+
+* Easy to manage
+* Easy to troubleshoot
+* Failure of one cable affects only one device
+
+**Disadvantages**
+
+* Central device becomes a single point of failure
+
+**Real-World Example**
+
+* Home Wi-Fi network connected to a router
+
+---
+
+### Bus Topology
+
+In a bus topology, all devices share a single communication cable.
+
+**Advantages**
+
+* Simple design
+* Low cost
+
+**Disadvantages**
+
+* If the main cable fails, the entire network can fail
+* Difficult to troubleshoot
+
+**Real-World Example**
+
+* Older computer networks
+
+---
+
+### Ring Topology
+
+In a ring topology, devices are connected in a circular path.
+
+**Advantages**
+
+* Predictable data flow
+
+**Disadvantages**
+
+* Failure of one device can affect the network
+
+**Real-World Example**
+
+* Legacy Token Ring networks
+
+## Most Common Topology Today
+
+Star topology is the most commonly used network topology because it is scalable, reliable, and easy to manage.
+
+## Cybersecurity Connection
+
+Network topology helps security analysts understand network structure, locate devices, identify critical infrastructure, and investigate incidents during network analysis.
+
+## Key Takeaways
+
+* Topology describes how network devices are connected.
+* Star topology is the most common modern design.
+* Different topologies have different strengths and weaknesses.
+* Understanding topology is important for cybersecurity and troubleshooting.
+# Lab Practice
+
+Run the following commands in your command prompt to see how your device interacts with its topology:
+
+```bash
+# Check your local IP and default gateway (your central switch/router)
+ipconfig
+
+# Test connectivity to a public DNS server
+ping 8.8.8.8
+
+# Trace the route packets take to reach an external network
+tracert google.com
+## What I Learned
+
+Through this project I learned:
+
+- The difference between physical and logical topology
+- Why star topology is common in modern networks
+- How network design affects troubleshooting
+- How topology knowledge helps cybersecurity professionals
